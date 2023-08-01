@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 98659a6 (HOMEWORK1)
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
@@ -27,6 +30,7 @@ bin/
 .vscode/
 
 ### Mac OS ###
+<<<<<<< HEAD
 .DS_Store
 =======
 # Compiled class file
@@ -56,3 +60,6 @@ bin/
 hs_err_pid*
 replay_pid*
 >>>>>>> main
+=======
+.DS_Store
+>>>>>>> 98659a6 (HOMEWORK1)
