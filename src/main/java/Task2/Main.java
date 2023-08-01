@@ -1,8 +1,12 @@
 package Task2;
 
-import Task2.Let;
-import Task2.БіговаДоріжка;
-import Task2.Стіна;
+import Task2.let.Let;
+import Task2.let.БіговаДоріжка;
+import Task2.let.Стіна;
+import Task2.player.Cat;
+import Task2.player.People;
+import Task2.player.Player;
+import Task2.player.Robot;
 
 public class Main {
     public static void main(String[] args) {
@@ -19,7 +23,7 @@ public class Main {
                 new Стіна(30)
         };
 
-        for (Player учасник : учасники) {
+        for (var учасник : учасники) {
             for (Let перешкода : перешкоди) {
                 перешкода.подолати(учасник);
             }
